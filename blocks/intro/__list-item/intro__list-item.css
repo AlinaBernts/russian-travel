@@ -1,0 +1,21 @@
+.intro__list-item {
+  max-width: 690px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+  }
+}
