@@ -27,10 +27,10 @@
 }
 
 
-.cover__overlay:hover {
+.cover__overlay:hover::before {
   opacity: 0.8;
   background-color: #2A2C2F;
-  transition: opacity 0.3s linear;
+
 }
 
 @media screen and (max-width: 1024px) {

@@ -28,18 +28,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
-    max-width: 320px;
-    row-gap: 32px;
-    grid-template-columns: 1fr;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .place {
-    max-width: 320px;
     row-gap: 32px;
     grid-template-columns: 1fr;
     margin-bottom: 50px;
